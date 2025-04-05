@@ -1,0 +1,30 @@
+# Cursorが無視するファイルやディレクトリの設定
+# .gitignoreと同様の形式で記述します
+
+# 一時ファイル
+*.tmp
+*.log
+*.bak
+
+# ビルド成果物
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+
+# 大容量データファイル
+*.model
+*.bin
+*.weights
+large_data/
+
+# 機密情報
+secrets/
+.env
+*.pem
+*.key
+
+# その他Cursorで処理しない特殊ファイル
+# 必要に応じて追加してください
