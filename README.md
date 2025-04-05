@@ -6,6 +6,29 @@
 
 人工知能（AI）技術の急速な発展に伴い、その使用に関するルールやガイドラインが重要になってきています。このリポジトリでは、AIの開発、実装、使用に関する様々なルールセットを収集・整理しています。
 
+## ディレクトリ構成
+
+```
+ai-rules/
+├── ios/                         # iOSアプリ開発に関するAIルール
+│   ├── prompt-engineering/      # iOSアプリ開発用プロンプトガイドライン
+│   ├── code-generation/         # Swift/UIKit/SwiftUIコード生成ルール
+│   ├── ui-ux/                   # AI活用したUI/UXデザインガイドライン
+│   ├── testing/                 # AIを使ったテスト手法
+│   ├── privacy-security/        # プライバシーとセキュリティガイドライン
+│   └── app-store/               # App Store審査対応ガイドライン
+├── android/                     # Android開発関連（将来追加予定）
+├── web/                         # Web開発関連（将来追加予定）
+├── general/                     # 一般的なAIガイドライン
+│   ├── ethics/                  # AI倫理ガイドライン
+│   ├── prompt-patterns/         # 一般的なプロンプトパターン
+│   └── security/                # AIセキュリティガイドライン
+└── .config/                     # 設定ファイル
+    └── cursor/                  # Cursor IDE関連設定
+        ├── cursorignore         # Cursorで無視するファイル設定
+        └── cursor-settings.json # Cursor IDE設定
+```
+
 ## 内容
 
 このリポジトリには以下のようなルールファイルが含まれています（または今後追加予定です）：
@@ -15,6 +38,15 @@
 - プロンプトエンジニアリングのベストプラクティス
 - 特定分野におけるAI使用ルール（医療、金融、教育など）
 - AI開発におけるプライバシーとセキュリティのガイドライン
+
+## IDE設定ファイル
+
+`.config/cursor/` ディレクトリには、Cursor IDEで効率的にAIを活用するための設定ファイルが含まれています：
+
+1. **cursorignore**: Cursorが処理しないファイルやディレクトリを指定
+2. **cursor-settings.json**: Cursor IDEの設定（カスタムプロンプト、エディタ設定など）
+
+これらの設定ファイルを使用することで、プロジェクト全体でCursor IDEの動作を統一し、効率的なAI活用が可能になります。
 
 ## 使い方
 

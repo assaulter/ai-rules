@@ -1,0 +1,45 @@
+{
+  "ai": {
+    "enableCodeLens": true,
+    "enableInlineCompletion": true,
+    "enableChat": true,
+    "defaultModel": "claude-3-opus-20240229",
+    "customPrompts": [
+      {
+        "name": "Swift UIKitコードレビュー",
+        "prompt": "このUIKitコードをレビューして、メモリリーク、パフォーマンス問題、UIライフサイクルの問題を特定してください。"
+      },
+      {
+        "name": "SwiftUI最適化",
+        "prompt": "このSwiftUIコードを最適化して、パフォーマンスを向上させ、メモリ使用量を削減してください。"
+      },
+      {
+        "name": "iOSアクセシビリティ",
+        "prompt": "このiOSコードにアクセシビリティ機能を追加して、VoiceOverおよびDynamic Typeに対応させてください。"
+      }
+    ]
+  },
+  "editor": {
+    "formatOnSave": true,
+    "tabSize": 4,
+    "insertSpaces": true,
+    "wordWrap": "off",
+    "rulers": [100],
+    "fontFamily": "JetBrains Mono, SF Mono, monospace",
+    "fontSize": 14
+  },
+  "swift": {
+    "linting": true,
+    "formatting": {
+      "useTabs": false,
+      "indentWidth": 4
+    }
+  },
+  "terminal": {
+    "integrated": {
+      "shell": {
+        "osx": "/bin/zsh"
+      }
+    }
+  }
+}
